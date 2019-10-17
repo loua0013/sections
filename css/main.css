@@ -39,6 +39,8 @@ img {
 .titleandparagraph {
   display: inline-block;
   max-width: 50%;
+  vertical-align: top;
+  padding-top: 0;
 }
 
 a {
@@ -50,7 +52,7 @@ p {
   display: inline-block;
   text-align: left;
   max-width: 60%;
-  margin-bottom: .75em;
+  margin-bottom: 1em;
 }
 
 nav a {
