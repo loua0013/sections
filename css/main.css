@@ -3,32 +3,33 @@ html {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
   line-height: 1.5;
-  text-align: center;
-  margin-top: 1.5em;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-section {
+body {
   margin: 0;
-  display: inline-block;
-  text-align: center;
-  padding: 2em;
-  max-width: 960px;
 }
 
-h2 {
-  font-size: 1.5rem;
-  padding-bottom: .6em;
+section {
   margin: 0;
+  text-align: center;
+  padding: 2em 0;
+}
+
+h2, p {
+  margin: 0 0 1.5rem;
 }
 
 .btn {
-  padding: 4
-  text-align: center;
+  padding: .4em .75em .5em;
+  text-decoration: none;
   color: #666;
+  border: 3px solid #333;
+  border-radius: 10px;
+  display: inline-block;
 }
 
 div {
@@ -37,75 +38,14 @@ div {
   text-align: left;
   vertical-align: middle;
   max-width: 25em;
-  margin: 0;
-  padding-top: 0;
-  min-width: 25em;
 }
 
 img {
   display: block;
-  margin-bottom: 1em;
   width: 100%;
-  text-align: center;
-  padding: .4em;
 }
 
-.titleandparagraph {
-  display: inline-block;
-  max-width: 50%;
-  vertical-align: top;
-  padding-top: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-}
-
-p {
-  display: inline-block;
-  text-align: left;
-  width: 100%;
-  margin-bottom: 1em;
-  min-width: 100%;
-  flex-wrap: nowrap;
-  max-width: 80%;
-  font-size: 1rem;
-  padding-bottom: 2em;
-}
-
-nav a {
-  display: inline-block;
-  padding: .5em;
-  text-align: left;
-  margin: 0;
-}
-
-nav a {
-  display: inline-block;
-  text-align: left;
-  border: 3px solid #333;
-  border-radius: 10px;
-  margin: 0;
-  padding-left: 0;
-  font-size: 1.125rem;
-}
-
-nav a:hover {
+.btn:hover {
   background-color: #333;
-  border-radius: 1px;
   color: #fff;
-}
-
-a {
-  display: inline-block;
-  text-decoration: none;
-  list-style-type: none;
-  text-align: left;
-  margin: 0;
-  padding-left: 0;
-}
-
-h2, p {
-  margin: 0 0 1.5rem;
 }
