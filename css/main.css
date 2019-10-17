@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #eee9de;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   line-height: 1.5;
   margin: 1.5rem;
   color: #333;
@@ -21,11 +21,15 @@ h2 {
   padding-bottom: 1em;
   margin: 0;
 }
+.btn {
+  text-align: center;
+}
 
 img {
   margin-bottom: 1em;
-  display: inline-block;
   min-width: 100%;
+  width: auto;
+  text-align: center;
 }
 
 .titleandparagraph {
