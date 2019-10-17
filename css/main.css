@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #eee9de;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 1.5;
   margin: 1.5rem;
   color: #333;
@@ -22,7 +22,7 @@ h2 {
   margin: 0;
 }
 
-.image {
+img {
   margin-bottom: 1em;
   display: inline-block;
 }
@@ -39,7 +39,6 @@ a {
 
 p {
   display: inline;
-  min-width: 50%;
 }
 
 nav a {
@@ -68,6 +67,6 @@ ul {
 }
 
 div {
- display: inline-block;
- padding: 1em;
+  display: inline-block;
+  padding: 1em;
 }
