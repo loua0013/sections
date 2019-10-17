@@ -28,10 +28,10 @@ h2 {
 }
 
 img {
-  display: inline-block;
+  display: block;
   margin-bottom: 1em;
   min-width: 100%;
-  width: 50em;
+  width: 320px;
   text-align: center;
 }
 
