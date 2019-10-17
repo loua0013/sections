@@ -53,6 +53,7 @@ p {
   text-align: left;
   max-width: 60%;
   margin-bottom: 1em;
+  min-width: 50%;
 }
 
 nav a {
@@ -66,7 +67,7 @@ nav li {
   display: inline-block;
   text-align: left;
   border: 3px solid #333;
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 0;
   padding-left: 0;
   font-size: 1.125rem;
@@ -92,7 +93,7 @@ div {
   padding: 1em .75em;
   text-align: left;
   vertical-align: middle;
-  min-width: 25em;
+  min-width: 320px;
   max-width: 320px;
   margin: 0;
   padding-top: 0;
