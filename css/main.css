@@ -19,12 +19,13 @@ body {
 
 h2 {
   font-size: 1.5rem;
-  padding-bottom: 1em;
+  padding-bottom: .5em;
   margin: 0;
 }
 
 .btn {
   text-align: center;
+  color: #666;
 }
 
 img {
@@ -54,6 +55,7 @@ nav a {
   display: inline-block;
   padding: .5em;
   text-align: left;
+  margin: 0;
 }
 
 nav li {
@@ -61,10 +63,11 @@ nav li {
   text-align: left;
   border: 3px solid #333;
   border-radius: 5px;
+  margin: 0;
 }
 
 nav li a:hover {
-  background-color: #666;
+  background-color: #333;
   border-radius: 1px;
   color: #fff;
 }
@@ -73,6 +76,7 @@ ul {
   text-decoration: none;
   list-style-type: none;
   text-align: left;
+  margin: 0;
 }
 
 div {
@@ -82,4 +86,5 @@ div {
   vertical-align: middle;
   min-width: 25em;
   max-width: 320px;
+  margin: 0;
 }
