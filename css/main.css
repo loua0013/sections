@@ -64,6 +64,7 @@ nav li {
   border: 3px solid #333;
   border-radius: 5px;
   margin: 0;
+  padding-left: 0;
 }
 
 nav li a:hover {
@@ -73,10 +74,12 @@ nav li a:hover {
 }
 
 ul {
+  display: inline-block;
   text-decoration: none;
   list-style-type: none;
   text-align: left;
   margin: 0;
+  padding-left: 0;
 }
 
 div {
