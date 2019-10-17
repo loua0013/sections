@@ -34,7 +34,7 @@ h2 {
 
 div {
   display: inline-block;
-  padding: 1.5em 1em;
+  padding: 1.5em .6em;
   text-align: left;
   vertical-align: middle;
   max-width: 25em;
@@ -48,7 +48,7 @@ img {
   margin-bottom: 1em;
   width: 100%;
   text-align: center;
-  padding: 10px;
+  padding: .4em;
 }
 
 .titleandparagraph {
