@@ -19,7 +19,7 @@ body {
 
 h2 {
   font-size: 1.5rem;
-  padding-bottom: .2em;
+  padding-bottom: .4em;
   margin: 0;
 }
 
@@ -51,9 +51,10 @@ a {
 p {
   display: inline-block;
   text-align: left;
-  max-width: 60%;
+  width: 100%;
   margin-bottom: 1em;
-  min-width: 50%;
+  min-width: 100%;
+  flex-wrap: nowrap;
 }
 
 nav a {
@@ -93,8 +94,8 @@ div {
   padding: 1em .75em;
   text-align: left;
   vertical-align: middle;
-  min-width: 320px;
-  max-width: 320px;
+  max-width: 25em;
   margin: 0;
   padding-top: 0;
+  min-width: 25em;
 }
