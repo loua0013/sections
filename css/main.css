@@ -11,11 +11,11 @@ html {
   box-sizing: inherit;
 }
 
-body {
+section {
   margin: 0;
   display: inline-block;
   text-align: center;
-  padding: 1em 1em;
+  padding: 2em;
   max-width: 960px;
 }
 
@@ -26,13 +26,14 @@ h2 {
 }
 
 .btn {
+  padding: 4
   text-align: center;
   color: #666;
 }
 
 div {
   display: inline-block;
-  padding: 1.5em 1em;
+  padding: 1em;
   text-align: left;
   vertical-align: middle;
   max-width: 25em;
@@ -103,4 +104,8 @@ ul {
   text-align: left;
   margin: 0;
   padding-left: 0;
+}
+
+h2, p {
+  margin: 0 0 1.5rem;
 }
