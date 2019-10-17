@@ -4,7 +4,7 @@ html {
   font-family: Lato, sans-serif;
   line-height: 1.5;
   margin: 1.5rem;
-  min-width: 50em;
+  text-align: center;
 }
 
 *, *::before, *::after {
