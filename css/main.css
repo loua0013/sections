@@ -25,6 +25,7 @@ h2 {
 img {
   margin-bottom: 1em;
   display: inline-block;
+  min-width: 100%;
 }
 
 .titleandparagraph {
@@ -39,6 +40,7 @@ a {
 
 p {
   display: inline;
+  text-align: left;
 }
 
 nav a {
@@ -69,6 +71,6 @@ ul {
 div {
   display: inline-block;
   padding: 1em;
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
 }
