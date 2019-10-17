@@ -15,7 +15,7 @@ body {
   margin: 0;
   display: inline-block;
   text-align: center;
-  padding-top: 1em;
+  padding: 1em 1em;
   max-width: 960px;
 }
 
@@ -68,9 +68,9 @@ p {
   margin-bottom: 1em;
   min-width: 100%;
   flex-wrap: nowrap;
-  max-width: inherit;
+  max-width: 80%;
   font-size: 1rem;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
 }
 
 nav a {
