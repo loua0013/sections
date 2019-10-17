@@ -5,6 +5,7 @@ html {
   line-height: 1.5;
   margin: 1.5rem;
   color: #333;
+  min-width: 50em;
 }
 
 *, *::before, *::after {
@@ -78,4 +79,5 @@ div {
   padding: 1em;
   text-align: left;
   vertical-align: middle;
+  min-width: 25em;
 }
