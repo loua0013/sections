@@ -29,8 +29,7 @@ h2 {
 img {
   display: block;
   margin-bottom: 1em;
-  min-width: 100%;
-  width: 200px;
+  width: 100%;
   text-align: center;
 }
 
@@ -45,8 +44,9 @@ a {
 }
 
 p {
-  display: inline;
+  display: inline-inline-block;
   text-align: left;
+  max-width: 60%;
 }
 
 nav a {
@@ -80,4 +80,5 @@ div {
   text-align: left;
   vertical-align: middle;
   min-width: 25em;
+  max-width: 320px;
 }
